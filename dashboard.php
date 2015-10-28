@@ -17,8 +17,9 @@ function buildBody($lang) {
 function buildScripts($lang) {
 	$sb = buildScript('config/'.$lang.'/strings').
 		buildScript('js/jquery').
-		buildScript('js/user').
-		buildScript('js/core');
+		buildScript('js/dictionary').
+		buildScript('js/core_connector').
+		buildScript('js/page');
 	return $sb;
 }
 
