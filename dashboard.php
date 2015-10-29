@@ -19,7 +19,8 @@ function buildScripts($lang) {
 		buildScript('js/jquery').
 		buildScript('js/dictionary').
 		buildScript('js/core_connector').
-		buildScript('js/page');
+		buildScript('js/page').
+		buildScript('js/dashboard');
 	return $sb;
 }
 

@@ -17,8 +17,10 @@ function buildBody($lang) {
 function buildScripts($lang) {
 	$sb = buildScript('config/'.$lang.'/strings').
 		buildScript('js/jquery').
+		buildScript('js/dictionary').
 		buildScript('js/user').
-		buildScript('js/core');
+		buildScript('js/core').
+		buildScript('js/ui');
 	return $sb;
 }
 
