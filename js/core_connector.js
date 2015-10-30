@@ -1,7 +1,6 @@
-var Core = null, 
-	Page = null;
+var BudgetBuddy = null;
 	
 $(document).ready(function() {
-	Core = window.parent.Core;
-	Page = new page();
+	BudgetBuddy = window.parent.BudgetBuddy;
+	// Page = new page();
 });
